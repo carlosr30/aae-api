@@ -14,7 +14,6 @@ class EventController extends Controller
         CreateEventRequest $request,
         EventRepository $eventRepo,
     ) {
-        var_dump($request->all());
         $eventRepo->deleteLatestEvent();
         $eventRepo->createEvent($request->all());
         return new JsonResponse(null, 201);
