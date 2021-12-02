@@ -8,8 +8,8 @@
     <title>appetiser-apps-exam</title>
     <link href="/css/app.385fb933.css" rel="preload" as="style">
     <link href="/css/chunk-vendors.98a879dd.css" rel="preload" as="style">
-    <link href="/js/app.389a17d1.js" rel="preload" as="script">
-    <link href="/js/chunk-vendors.e512074b.js" rel="preload" as="script">
+    <link href="/js/app.5503b28d.js" rel="preload" as="script">
+    <link href="/js/chunk-vendors.2c7f002b.js" rel="preload" as="script">
     <link href="/css/chunk-vendors.98a879dd.css" rel="stylesheet">
     <link href="/css/app.385fb933.css" rel="stylesheet">
 </head>
@@ -18,7 +18,7 @@
         <strong>We're sorry but appetiser-apps-exam doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
-    <script src="/js/chunk-vendors.e512074b.js"></script>
-    <script src="/js/app.389a17d1.js"></script>
+    <script src="/js/chunk-vendors.2c7f002b.js"></script>
+    <script src="/js/app.5503b28d.js"></script>
 </body>
 </html>
