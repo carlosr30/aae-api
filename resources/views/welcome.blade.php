@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="icon" href="/favicon.ico">
-    <title>appetiser-apps-exam</title>
+    <title>Basic Calendar</title>
     <link href="/css/app.385fb933.css" rel="preload" as="style">
     <link href="/css/chunk-vendors.98a879dd.css" rel="preload" as="style">
     <link href="/js/app.3219dcc8.js" rel="preload" as="script">
