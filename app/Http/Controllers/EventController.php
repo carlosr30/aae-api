@@ -12,7 +12,7 @@ class EventController extends Controller
 {
     public function create(
         CreateEventRequest $request,
-        EventRepository $eventRepo,
+        EventRepository $eventRepo
     ) {
         $eventRepo->deleteLatestEvent();
         $eventRepo->createEvent($request->all());
