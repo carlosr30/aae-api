@@ -19,5 +19,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/events/year/{year}/month/{month}', [EventController::class, 'get']);
+Route::get('/events/year/{year}/month/{month}', [EventController::class, 'getEventsByYearAndMonth']);
 Route::post('/events', [EventController::class, 'create']);

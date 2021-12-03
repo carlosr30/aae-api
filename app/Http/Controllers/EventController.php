@@ -19,7 +19,7 @@ class EventController extends Controller
         return new JsonResponse(null, 201);
     }
 
-    public function get(
+    public function getEventsByYearAndMonth(
         int $year,
         int $month,
         DateService $dateService,
