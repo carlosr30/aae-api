@@ -56,7 +56,7 @@ class CreateEventRequest extends FormRequest
 
     public function messages() {
         return [
-            'start_date.required' => 'The range field is invalid.',
+            'start_date.required' => 'The range field is required.',
             'end_date.required' => 'The range field is invalid.',
             'event_days.required' => 'Please select a day'
         ];
