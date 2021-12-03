@@ -53,4 +53,12 @@ class CreateEventRequest extends FormRequest
             ]
         ];
     }
+
+    public function messages() {
+        return [
+            'start_date.required' => 'The range field is invalid.',
+            'end_date.required' => 'The range field is invalid.',
+            'event_days.required' => 'Please select a day'
+        ];
+    }
 }
